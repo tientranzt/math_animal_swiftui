@@ -3,23 +3,58 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6682989433EEFAD02DDD5BEC /* Pods_math_animal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383842AA81300A632BEB2129 /* Pods_math_animal.framework */; };
+		FF079D3525BEFAD500F5FADA /* ZodiacImageQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF079D3425BEFAD500F5FADA /* ZodiacImageQuestion.swift */; };
+		FF079D3825BEFB7D00F5FADA /* AnswerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF079D3725BEFB7D00F5FADA /* AnswerButton.swift */; };
+		FF079D3B25BEFC8D00F5FADA /* ZodiacData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF079D3A25BEFC8D00F5FADA /* ZodiacData.swift */; };
+		FF079D3E25BEFCFC00F5FADA /* GuidanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF079D3D25BEFCFC00F5FADA /* GuidanceViewModel.swift */; };
+		FF079D4125BEFF0F00F5FADA /* PlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF079D4025BEFF0F00F5FADA /* PlayViewModel.swift */; };
+		FF698FD125C56BB000A1DE1A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF698FD025C56BB000A1DE1A /* HomeViewModel.swift */; };
+		FF77F3F225BB2CE0005A9595 /* ZodiacAndPointInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF77F3F125BB2CE0005A9595 /* ZodiacAndPointInfo.swift */; };
+		FF77F3F825BBBC39005A9595 /* en.json in Resources */ = {isa = PBXBuildFile; fileRef = FF77F3F725BBBC39005A9595 /* en.json */; };
+		FF77F3FB25BBBC49005A9595 /* vi.json in Resources */ = {isa = PBXBuildFile; fileRef = FF77F3FA25BBBC49005A9595 /* vi.json */; };
+		FF77F3FE25BBC4BE005A9595 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF77F3FD25BBC4BE005A9595 /* Extensions.swift */; };
+		FF77F40125BBC4FB005A9595 /* ZodiacModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF77F40025BBC4FB005A9595 /* ZodiacModel.swift */; };
+		FF77F40525BD0D90005A9595 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF77F40425BD0D90005A9595 /* PlayView.swift */; };
 		FF8D1EC825B48CDB007137BB /* math_animalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8D1EC725B48CDB007137BB /* math_animalApp.swift */; };
-		FF8D1ECA25B48CDB007137BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8D1EC925B48CDB007137BB /* ContentView.swift */; };
 		FF8D1ECC25B48CDE007137BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8D1ECB25B48CDE007137BB /* Assets.xcassets */; };
 		FF8D1ECF25B48CDE007137BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8D1ECE25B48CDE007137BB /* Preview Assets.xcassets */; };
+		FF8D1EDD25B48D51007137BB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8D1EDC25B48D51007137BB /* HomeView.swift */; };
+		FF8D1EE025B4904D007137BB /* GuidanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8D1EDF25B4904D007137BB /* GuidanceView.swift */; };
+		FF8D1F0225B5C1E1007137BB /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8D1F0125B5C1E1007137BB /* RoundedCorner.swift */; };
+		FF8D1F0625B5C29E007137BB /* CircleTextIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8D1F0525B5C29E007137BB /* CircleTextIcon.swift */; };
+		FF8D1F1025B72E23007137BB /* ImagePickerView in Frameworks */ = {isa = PBXBuildFile; productRef = FF8D1F0F25B72E23007137BB /* ImagePickerView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		383842AA81300A632BEB2129 /* Pods_math_animal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_math_animal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		730F5715F8760483B5F25F4D /* Pods-math_animal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-math_animal.debug.xcconfig"; path = "Target Support Files/Pods-math_animal/Pods-math_animal.debug.xcconfig"; sourceTree = "<group>"; };
+		D87AB09311F408518C28D507 /* Pods-math_animal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-math_animal.release.xcconfig"; path = "Target Support Files/Pods-math_animal/Pods-math_animal.release.xcconfig"; sourceTree = "<group>"; };
+		FF079D3425BEFAD500F5FADA /* ZodiacImageQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacImageQuestion.swift; sourceTree = "<group>"; };
+		FF079D3725BEFB7D00F5FADA /* AnswerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerButton.swift; sourceTree = "<group>"; };
+		FF079D3A25BEFC8D00F5FADA /* ZodiacData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacData.swift; sourceTree = "<group>"; };
+		FF079D3D25BEFCFC00F5FADA /* GuidanceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidanceViewModel.swift; sourceTree = "<group>"; };
+		FF079D4025BEFF0F00F5FADA /* PlayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewModel.swift; sourceTree = "<group>"; };
+		FF698FD025C56BB000A1DE1A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		FF77F3F125BB2CE0005A9595 /* ZodiacAndPointInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacAndPointInfo.swift; sourceTree = "<group>"; };
+		FF77F3F725BBBC39005A9595 /* en.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = en.json; sourceTree = "<group>"; };
+		FF77F3FA25BBBC49005A9595 /* vi.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vi.json; sourceTree = "<group>"; };
+		FF77F3FD25BBC4BE005A9595 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FF77F40025BBC4FB005A9595 /* ZodiacModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacModel.swift; sourceTree = "<group>"; };
+		FF77F40425BD0D90005A9595 /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
 		FF8D1EC425B48CDB007137BB /* math_animal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = math_animal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8D1EC725B48CDB007137BB /* math_animalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = math_animalApp.swift; sourceTree = "<group>"; };
-		FF8D1EC925B48CDB007137BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FF8D1ECB25B48CDE007137BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF8D1ECE25B48CDE007137BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FF8D1ED025B48CDE007137BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8D1EDC25B48D51007137BB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FF8D1EDF25B4904D007137BB /* GuidanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidanceView.swift; sourceTree = "<group>"; };
+		FF8D1F0125B5C1E1007137BB /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		FF8D1F0525B5C29E007137BB /* CircleTextIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTextIcon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +62,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF8D1F1025B72E23007137BB /* ImagePickerView in Frameworks */,
+				6682989433EEFAD02DDD5BEC /* Pods_math_animal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B18570124B595F0491D00B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				730F5715F8760483B5F25F4D /* Pods-math_animal.debug.xcconfig */,
+				D87AB09311F408518C28D507 /* Pods-math_animal.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7BECDBC31F4E3C73600EFC42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				383842AA81300A632BEB2129 /* Pods_math_animal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF77F3F425BB2E40005A9595 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FF079D3D25BEFCFC00F5FADA /* GuidanceViewModel.swift */,
+				FF079D4025BEFF0F00F5FADA /* PlayViewModel.swift */,
+				FF698FD025C56BB000A1DE1A /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FF77F3F625BBBC05005A9595 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FF77F3F725BBBC39005A9595 /* en.json */,
+				FF77F3FA25BBBC49005A9595 /* vi.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		FF8D1EBB25B48CDA007137BB = {
 			isa = PBXGroup;
 			children = (
 				FF8D1EC625B48CDB007137BB /* math_animal */,
 				FF8D1EC525B48CDB007137BB /* Products */,
+				1B18570124B595F0491D00B2 /* Pods */,
+				7BECDBC31F4E3C73600EFC42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +127,12 @@
 		FF8D1EC625B48CDB007137BB /* math_animal */ = {
 			isa = PBXGroup;
 			children = (
+				FF77F3F625BBBC05005A9595 /* Data */,
+				FF8D1ED825B48CF0007137BB /* Model */,
+				FF77F3F425BB2E40005A9595 /* ViewModel */,
+				FF8D1ED725B48CEA007137BB /* View */,
+				FF8D1ED925B48CF6007137BB /* Utils */,
 				FF8D1EC725B48CDB007137BB /* math_animalApp.swift */,
-				FF8D1EC925B48CDB007137BB /* ContentView.swift */,
 				FF8D1ECB25B48CDE007137BB /* Assets.xcassets */,
 				FF8D1ED025B48CDE007137BB /* Info.plist */,
 				FF8D1ECD25B48CDE007137BB /* Preview Content */,
@@ -69,6 +148,38 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		FF8D1ED725B48CEA007137BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF8D1EDC25B48D51007137BB /* HomeView.swift */,
+				FF8D1EDF25B4904D007137BB /* GuidanceView.swift */,
+				FF77F40425BD0D90005A9595 /* PlayView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF8D1ED825B48CF0007137BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF77F40025BBC4FB005A9595 /* ZodiacModel.swift */,
+				FF079D3A25BEFC8D00F5FADA /* ZodiacData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF8D1ED925B48CF6007137BB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FF77F3FD25BBC4BE005A9595 /* Extensions.swift */,
+				FF8D1F0125B5C1E1007137BB /* RoundedCorner.swift */,
+				FF8D1F0525B5C29E007137BB /* CircleTextIcon.swift */,
+				FF77F3F125BB2CE0005A9595 /* ZodiacAndPointInfo.swift */,
+				FF079D3425BEFAD500F5FADA /* ZodiacImageQuestion.swift */,
+				FF079D3725BEFB7D00F5FADA /* AnswerButton.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,6 +187,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF8D1ED325B48CDE007137BB /* Build configuration list for PBXNativeTarget "math_animal" */;
 			buildPhases = (
+				826E8F9683EC7CC3F6792E37 /* [CP] Check Pods Manifest.lock */,
 				FF8D1EC025B48CDB007137BB /* Sources */,
 				FF8D1EC125B48CDB007137BB /* Frameworks */,
 				FF8D1EC225B48CDB007137BB /* Resources */,
@@ -85,6 +197,9 @@
 			dependencies = (
 			);
 			name = math_animal;
+			packageProductDependencies = (
+				FF8D1F0F25B72E23007137BB /* ImagePickerView */,
+			);
 			productName = math_animal;
 			productReference = FF8D1EC425B48CDB007137BB /* math_animal.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +227,9 @@
 				Base,
 			);
 			mainGroup = FF8D1EBB25B48CDA007137BB;
+			packageReferences = (
+				FF8D1F0E25B72E23007137BB /* XCRemoteSwiftPackageReference "ImagePickerView" */,
+			);
 			productRefGroup = FF8D1EC525B48CDB007137BB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,20 +244,60 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF77F3F825BBBC39005A9595 /* en.json in Resources */,
 				FF8D1ECF25B48CDE007137BB /* Preview Assets.xcassets in Resources */,
+				FF77F3FB25BBBC49005A9595 /* vi.json in Resources */,
 				FF8D1ECC25B48CDE007137BB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		826E8F9683EC7CC3F6792E37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-math_animal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FF8D1EC025B48CDB007137BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF8D1ECA25B48CDB007137BB /* ContentView.swift in Sources */,
+				FF079D4125BEFF0F00F5FADA /* PlayViewModel.swift in Sources */,
+				FF77F3F225BB2CE0005A9595 /* ZodiacAndPointInfo.swift in Sources */,
+				FF8D1F0225B5C1E1007137BB /* RoundedCorner.swift in Sources */,
+				FF8D1EE025B4904D007137BB /* GuidanceView.swift in Sources */,
+				FF77F3FE25BBC4BE005A9595 /* Extensions.swift in Sources */,
+				FF8D1EDD25B48D51007137BB /* HomeView.swift in Sources */,
+				FF8D1F0625B5C29E007137BB /* CircleTextIcon.swift in Sources */,
+				FF079D3825BEFB7D00F5FADA /* AnswerButton.swift in Sources */,
+				FF079D3E25BEFCFC00F5FADA /* GuidanceViewModel.swift in Sources */,
+				FF77F40125BBC4FB005A9595 /* ZodiacModel.swift in Sources */,
 				FF8D1EC825B48CDB007137BB /* math_animalApp.swift in Sources */,
+				FF77F40525BD0D90005A9595 /* PlayView.swift in Sources */,
+				FF079D3525BEFAD500F5FADA /* ZodiacImageQuestion.swift in Sources */,
+				FF698FD125C56BB000A1DE1A /* HomeViewModel.swift in Sources */,
+				FF079D3B25BEFC8D00F5FADA /* ZodiacData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +422,7 @@
 		};
 		FF8D1ED425B48CDE007137BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 730F5715F8760483B5F25F4D /* Pods-math_animal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +445,7 @@
 		};
 		FF8D1ED525B48CDE007137BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D87AB09311F408518C28D507 /* Pods-math_animal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -328,6 +488,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FF8D1F0E25B72E23007137BB /* XCRemoteSwiftPackageReference "ImagePickerView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ralfebert/ImagePickerView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FF8D1F0F25B72E23007137BB /* ImagePickerView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF8D1F0E25B72E23007137BB /* XCRemoteSwiftPackageReference "ImagePickerView" */;
+			productName = ImagePickerView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FF8D1EBC25B48CDB007137BB /* Project object */;
 }

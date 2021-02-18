@@ -1,0 +1,62 @@
+[
+    {
+        "name" : "Chuột",
+        "image" : "ti",
+        "score" : 1
+    },
+    {
+        "name" : "Trâu",
+        "image" : "suu",
+        "score" : 2
+    },
+    {
+        "name" : "Cọp",
+        "image" : "dan",
+        "score" : 3
+    },
+    {
+        "name" : "Mèo",
+        "image" : "mao",
+        "score" : 4
+    },
+    {
+        "name" : "Rồng",
+        "image" : "thin",
+        "score" : 5
+    },
+    {
+        "name" : "Rắn",
+        "image" : "ty",
+        "score" : 6
+    },
+    {
+        "name" : "Ngựa",
+        "image" : "ngo",
+        "score" : 7
+    },
+    {
+        "name" : "Dê",
+        "image" : "mui",
+        "score" : 8
+    },
+    {
+        "name" : "Khỉ",
+        "image" : "than",
+        "score" : 9
+    },
+    {
+        "name" : "Gà",
+        "image" : "dau",
+        "score" : 10
+    },
+    {
+        "name" : "Chó",
+        "image" : "tuat",
+        "score" : 11
+    },
+    {
+        "name" : "Heo",
+        "image" : "hoi",
+        "score" : 12
+    }
+]

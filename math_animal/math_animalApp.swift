@@ -11,7 +11,7 @@ import SwiftUI
 struct math_animalApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView().environmentObject(PlayViewModel())
         }
     }
 }

@@ -1,0 +1,6 @@
+framework module Pods_math_animal {
+  umbrella header "Pods-math_animal-umbrella.h"
+
+  export *
+  module * { export * }
+}

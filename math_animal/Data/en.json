@@ -1,0 +1,63 @@
+[
+    {
+        "name" : "Mouse",
+        "image" : "ti",
+        "score" : 1
+    },
+    {
+        "name" : "Buffalo",
+        "image" : "suu",
+        "score" : 2
+    },
+    {
+        "name" : "Tiger",
+        "image" : "dan",
+        "score" : 3
+    },
+    {
+        "name" : "Cat",
+        "image" : "mao",
+        "score" : 4
+    },
+    {
+        "name" : "Dragon",
+        "image" : "thin",
+        "score" : 5
+    },
+    {
+        "name" : "Snake",
+        "image" : "ty",
+        "score" : 6
+    },
+    {
+        "name" : "Horse",
+        "image" : "ngo",
+        "score" : 7
+    },
+    {
+        "name" : "Goat",
+        "image" : "mui",
+        "score" : 8
+    },
+    {
+        "name" : "Monkey",
+        "image" : "than",
+        "score" : 9
+    },
+    {
+        "name" : "Chicken",
+        "image" : "dau",
+        "score" : 10
+    },
+    {
+        "name" : "Dog",
+        "image" : "tuat",
+        "score" : 11
+    },
+    {
+        "name" : "Pig",
+        "image" : "hoi",
+        "score" : 12
+    }
+]
+
